@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <>
-      &copy; 2021 Evelyn Ploughman
-    </>
+    <footer>
+      <h6 className='text-center'>
+        &copy; 2021 Evelyn Ploughman
+      </h6>
+    </footer>
   );
 }

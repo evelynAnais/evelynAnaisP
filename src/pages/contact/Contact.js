@@ -2,8 +2,10 @@ import './Contact.css';
 
 export default function Contact() {
   return(
-    <>
-      Contact
-    </>
+    <section>
+      <p>
+        Contact
+      </p>
+    </section>
   );
 }
