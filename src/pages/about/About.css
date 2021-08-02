@@ -2,9 +2,17 @@
   width: 0; 
   height: 0; 
   border-top: 600px solid transparent;
-  border-bottom: 90px solid transparent;
+  border-bottom: 10px solid transparent;
   border-left: 300px solid #DAFEB7;
   z-index: -1;
   position: absolute;
   transform: rotate(45deg);
+  transform:translateX(200%)
+}
+
+@media all and (max-width: 768px) {
+  .tri-three2 {
+    border-top: 400px solid transparent;
+    transform: rotate(12deg);
+  }
 }
