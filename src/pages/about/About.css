@@ -7,7 +7,7 @@
   z-index: -1;
   position: absolute;
   transform: rotate(45deg);
-  transform:translateX(200%)
+  transform:translateX(200%);
 }
 
 @media all and (max-width: 768px) {
