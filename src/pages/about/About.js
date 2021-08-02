@@ -1,11 +1,40 @@
 import './About.css';
+import learningJS from '../../assets/learningJS.jpg';
+import outside from '../../assets/outside.jpg';
+import rightBefore from '../../assets/rightBefore.jpg';
+import withHat from '../../assets/withHat.jpg';
 
 export default function About() {
   return(
     <section>
-      <p>
-        About
-      </p>
+      <div className='tri-three2'></div>
+        <div className='container'>
+          <div className='row'>
+          <div className='col-sm'>
+            <img src={learningJS} class="rounded img-thumbnail" alt="..."/>
+          </div>
+          <div className='col-sm'>
+            <img src={outside} class="rounded img-thumbnail" alt="..."/>
+          </div>
+          <div className='col-sm'>
+            <img src={rightBefore} class="rounded img-thumbnail" alt="..."/>
+          </div>
+          <div className='col-sm'>
+            <img src={withHat} class="rounded img-thumbnail" alt="..."/>
+            </div>
+        </div>
+          <div>
+            <h2>Who Am I?</h2>
+          <p>
+            I like simplicity and efficiency, I like data! I love to learn! I have liked tech for a very long time! 
+            I remember the first computers and phones that I owned. How far we have come from that! 
+          </p>
+          </div>
+
+      </div>
+      
+      
+      
     </section>
   );
 }
