@@ -27,7 +27,7 @@
   height: 0; 
   border-top: 200px solid transparent;
   border-bottom: 350px solid transparent; 
-  border-right:95px solid #D0CFCF;
+  border-right:120px solid #D0CFCF;
 }
 
 .absolute {
@@ -37,8 +37,9 @@
 
 .absolute-intro {
   position: absolute;
-  top: 150px;
-  right: 150px;
+  text-align: right;
+  top: 15%;
+  right: 15%;
 }
 .arrowSliding {
   position: absolute;
@@ -76,4 +77,15 @@
   20% { opacity:1; transform: translateY(9vh); }	
   80% { opacity:1; transform: translateX(-9vw); }	
   100% { opacity:0; transform: translateX(-15vw); }	
+}
+
+@media all and (max-width: 768px) {
+  .absolute-intro {
+    top: 35%;
+    right: 5%;
+  }
+
+  .tri-one {
+    border-right: 250px solid transparent;
+  }
 }
