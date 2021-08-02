@@ -1,9 +1,11 @@
+import './Header.css';
+
 export default function Header() {
   return(
     <header>
-      <h6 >
-        Header
-      </h6>
+      <hr className='hr'/>
+      <hr className='hr-black'/>
+
     </header>
   );
 } 
