@@ -7,11 +7,12 @@ export default function Home() {
         <div className='tri-one'></div>
       </div>
       
-      <div class="arrow-down"></div>
-      <div class="arrow-left"></div>
-      <div class="arrow-right"></div>
+      <div className="tri-two"></div>
+      <div className="tri-three"></div>
+      <div className="tri-four"></div>
 
-      <div id="arrowAnim">
+
+      {/* <div id="arrowAnim">
         <div className="arrowSliding">
           <div className="arrow"></div>
         </div>
@@ -24,7 +25,7 @@ export default function Home() {
         <div className="arrowSliding delay3">
           <div className="arrow"></div>
         </div>
-      </div>
+      </div> */}
 
     </section>
   );

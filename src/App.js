@@ -9,7 +9,7 @@ import Projects from './pages/projects/Projects';
 export default function App() {
   return (
     <main className='container-fluid'> 
-      <Header />
+      {/* <Header /> */}
       <Home />
       <About />
       <Projects />

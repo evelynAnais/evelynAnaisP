@@ -1,12 +1,12 @@
 .tri-one {
   width: 0; 
   height: 0; 
-  border-left: 150px solid transparent;
+  border-left: 15px solid transparent;
   border-right: 150px solid transparent;
   border-bottom: 70px solid black;
 }
 
-.arrow-down {
+.tri-two {
   width: 0; 
   height: 0; 
   border-left: 20px solid transparent;
@@ -15,35 +15,32 @@
   border-top: 20px solid #69747C;
 }
 
-.arrow-right {
+.tri-three {
   width: 0; 
   height: 0; 
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
+  border-top: 600px solid transparent;
+  border-bottom: 90px solid transparent;
   
-  border-left: 60px solid green;
+  border-left: 150px solid #DAFEB7;
 }
 
-.arrow-left {
+.tri-four {
   width: 0; 
   height: 0; 
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
   
-  border-right:10px solid blue; 
+  border-right:30px solid #D0CFCF; 
 }
 
 
-
-
-
-#arrowAnim {
+/* #arrowAnim {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .arrow {
   width: 5vw;
