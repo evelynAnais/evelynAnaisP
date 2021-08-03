@@ -11,16 +11,16 @@ export default function About() {
         <div className='container'>
           <div className='row'>
           <div className='col-sm'>
-            <img src={learningJS} class="rounded img-thumbnail" alt="..."/>
+            <img src={learningJS} className="rounded img-thumbnail" alt="..."/>
           </div>
           <div className='col-sm'>
-            <img src={outside} class="rounded img-thumbnail" alt="..."/>
+            <img src={outside} className="rounded img-thumbnail" alt="..."/>
           </div>
           <div className='col-sm'>
-            <img src={rightBefore} class="rounded img-thumbnail" alt="..."/>
+            <img src={rightBefore} className="rounded img-thumbnail" alt="..."/>
           </div>
           <div className='col-sm'>
-            <img src={withHat} class="rounded img-thumbnail" alt="..."/>
+            <img src={withHat} className="rounded img-thumbnail" alt="..."/>
             </div>
         </div>
           <div>
