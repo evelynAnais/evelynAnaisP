@@ -9,3 +9,16 @@
   transform: rotate(45deg);
   transform:translateX(200%);
 }
+
+
+@media all and (max-width: 768px) {
+  .tri-three2 {
+    border-top: 500px solid transparent;
+    border-bottom: 1000px solid transparent;
+    border-left: 500px solid #DAFEB7;
+    transform: rotate(180deg);
+    text-align: right;
+    top: 110%;
+    right: 0%;
+  }
+}
