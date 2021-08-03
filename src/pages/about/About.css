@@ -9,10 +9,3 @@
   transform: rotate(45deg);
   transform:translateX(200%);
 }
-
-@media all and (max-width: 768px) {
-  .tri-three2 {
-    border-top: 400px solid transparent;
-    transform: rotate(12deg);
-  }
-}

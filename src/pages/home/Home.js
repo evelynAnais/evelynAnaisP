@@ -6,7 +6,7 @@ export default function Home() {
       <div className='arrowSliding'>
         <div className='tri-one'></div>
       </div>
-      <div className='arrowSliding2'>
+      <div className='arrowSliding4'>
         <div className='tri-two'></div>
       </div>
       <div className='tri-three'></div>

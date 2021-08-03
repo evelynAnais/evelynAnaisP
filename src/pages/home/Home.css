@@ -53,6 +53,12 @@
           animation: slide2 4s linear infinite;
 }
 
+.arrowSliding4 {
+  position: absolute;
+  -webkit-animation: slide4 25s linear infinite; 
+          animation: slide4 25s linear infinite;
+}
+
 @-webkit-keyframes slide {
   0% { opacity:0; transform: translateY(15vh); }	
   20% { opacity:1; transform: translateY(9vh); }	
@@ -60,8 +66,8 @@
   100% { opacity:0; transform: translateY(-15vh); }	
 }
 @keyframes slide {
-  0% { opacity:0; transform: translateY(15vw); }	
-  20% { opacity:1; transform: translateY(9vw); }	
+  0% { opacity:0; transform: translateY(15vh); }	
+  20% { opacity:1; transform: translateY(9vh); }	
   80% { opacity:1; transform: translateX(-9vw); }	
   100% { opacity:0; transform: translateX(-15vw); }	
 }
@@ -75,8 +81,21 @@
 @keyframes slide2 {
   0% { opacity:0; transform: translateY(15vh); }	
   20% { opacity:1; transform: translateY(9vh); }	
-  80% { opacity:1; transform: translateY(-9vw); }	
-  100% { opacity:0; transform: translateY(-15vw); }	
+  80% { opacity:1; transform: translateY(-9vh); }	
+  100% { opacity:0; transform: translateY(-15vh); }	
+}
+
+@-webkit-keyframes slide4 {
+  0% { opacity:0; transform: translateX(15vw); }	
+  20% { opacity:1; transform: translateX(9vw); }	
+  80% { opacity:1; transform: translateY(-9vh); }	
+  100% { opacity:0; transform: translateY(-15vh); }	
+}
+@keyframes slide4 {
+  0% { opacity:0; transform: translateX(10vw); }	
+  20% { opacity:1; transform: translateX(50vw); }	
+  80% { opacity:0; transform: translateY(-9vh); }	
+  100% { opacity:1; transform: translateY(-15vh); }	
 }
 
 @media all and (max-width: 768px) {
