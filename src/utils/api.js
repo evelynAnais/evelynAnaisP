@@ -29,7 +29,17 @@ async function fetchJson(url, options, onCancel) {
   }
 }
 
-export async function getNote() {
+export async function getJoke() {
   const url = `${JOKES_URL}`;
+  return await fetchJson(url, {});
+}
+
+export async function getQuote() {
+  const url = `${QUOTES_URL}`;
+  return await fetchJson(url, {});
+}
+
+export async function getProject() {
+  const url = `${PROJECTS_URL}`;
   return await fetchJson(url, {});
 }
