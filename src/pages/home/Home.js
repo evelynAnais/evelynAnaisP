@@ -1,16 +1,20 @@
 import { useState, useEffect } from 'react';
-import { getNote } from '../../utils/api';
+import { getJoke, getQuote } from '../../utils/api';
 import './Home.css';
 import NoteCard from './NoteCard';
 
 export default function Home() {
-  const [note, setNote] = useState([]);
+  const [sayings, setSayings] = useState([]);
   
-  function notes() {
-    getNote().then((res) => setNote(res.data));
+  function getSayings() {
+    Promise.all([getJoke(), getQuote()])
+      .then((res) => {
+        const [joke, quote] = res
+        setSayings([...joke.data, ...quote.data]);
+      }) 
   }
-  useEffect(notes, []);
-console.log(note)
+  useEffect(getSayings, []);
+console.log(sayings)
   return(
     <section>
       <div className='arrowSliding'>
@@ -27,7 +31,7 @@ console.log(note)
         <h1>Hello, I'm Evelyn!</h1>
         <h4>I'm a full stack Software Engineer</h4>
         <hr/>
-        <NoteCard note={note} />
+        <NoteCard sayings={sayings} />
       </div>
     </section>
   );

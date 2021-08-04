@@ -1,15 +1,16 @@
-export default function NoteCard({ note }) {
-  const notes = note.map((item, index) => (
-    <div key={index} className="card-body">
-      <blockquote className="blockquote">
-        <p>{item.joke}</p>
-        <footer className="blockquote-footer"><cite title="Source Title">{item.who_said}</cite></footer>
-      </blockquote>
-    </div>
-  ))
+export default function NoteCard({ sayings }) {
+  let saying;
+  if (sayings.length) {
+     saying = sayings[Math.floor(Math.random() * sayings.length)]
+    }
   return(
     <div className='card border-0'>
-      {notes}
+      <div className="card-body">
+        <blockquote className="blockquote">
+          <p>{saying?.joke || saying?.quote}</p>
+          <footer className="blockquote-footer"><cite title="Source Title">{saying?.who_said}</cite></footer>
+        </blockquote>
+      </div>
     </div>
   );
 }
