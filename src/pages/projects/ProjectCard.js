@@ -1,21 +1,28 @@
+import './ProjectCard.css'
+
 export default function ProjectCard({ item }) {
   return(
     <div className='container'>
-      <div className='row d-flex justify-content-around'>
-        <div className="card" style={{'width':'18rem'}}>
-          <img src="..." className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">{item?.comment}</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+      <div className='row d-flex justify-content-around task'>
+        <div className="card" >
+          <img src={item?.color_img} className="card-img-top grayscale abstract" alt="..."/>
+          <div className='details'>
+            <div className='details__inner'>
+              <div className="card-body">
+                <h5 className="card-title">{item?.title}</h5>
+                <p className="card-text">{item?.comment}</p>
+              </div>
+              <hr/>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">{item?.tech_stack}</li>
+              </ul>
+              <hr/>
+              <div className="card-body">
+                <a href={item?.url} className="card-link links">Live</a>
+                <span> || </span>
+                <a href="#" className="card-link links">Code</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
