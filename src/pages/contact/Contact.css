@@ -1,11 +1,32 @@
+.a-contact {
+  color: #6d7275;
+  text-decoration: none;
+  transition-duration: 100ms;
+  margin: 20px 20px 50px 20px;
+  text-shadow: 1px 1px 2px black;
+  z-index: 1
+}
+
+.a-contact:hover {
+  transition-duration: 100ms;
+  color: #dafeb7;
+}
+
+.a-contact:active {
+  transition-duration: 100ms;
+  color: #acc18a;
+}
 .tri-one2 {
   width: 0; 
   height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 280px solid transparent;
-  border-bottom: 100px solid black;
+  z-index: -100;
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
   transform: rotate(45deg);
   transform:translateX(220%);
+  
 }
 
 .arrowSliding3 {
@@ -15,13 +36,13 @@
 }
 
 @-webkit-keyframes slide3 {
-  0% { opacity:0; transform: translateX(15vw); }	
+  0% { opacity:0; transform: translateX(1vw); }	
   20% { opacity:1; transform: translateX(9vw); }	
   80% { opacity:1; transform: translateX(-9vw); }	
   100% { opacity:0; transform: translateX(-15vw); }	
 }
 @keyframes slide3 {
-  0% { opacity:0; transform: translateX(15vw); }	
+  0% { opacity:0; transform: translateX(1vw); }	
   20% { opacity:1; transform: translateX(9vw); }	
   80% { opacity:1; transform: translateX(-9vw); }	
   100% { opacity:0; transform: translateX(-15vw); }	
@@ -31,10 +52,14 @@
   .tri-one2 {
     width: 0; 
     height: 0; 
-    border-left: 250px solid transparent;
+    z-index: -1;
+    border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 30px solid black;
     transform: rotate(25deg);
     transform:translateX(20%);
+    top: 110%;
+    right: 10%;
+    
   }
 }

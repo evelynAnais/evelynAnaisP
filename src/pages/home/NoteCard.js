@@ -4,11 +4,11 @@ export default function NoteCard({ sayings }) {
      saying = sayings[Math.floor(Math.random() * sayings.length)]
     }
   return(
-    <div className='card border-0'>
-      <div className="card-body">
-        <blockquote className="blockquote">
+    <div className='card border-0 bg-transparent'>
+      <div className='card-body'>
+        <blockquote className='blockquote'>
           <p>{saying?.joke || saying?.quote}</p>
-          <footer className="blockquote-footer"><cite title="Source Title">{saying?.who_said}</cite></footer>
+          <footer className='blockquote-footer'><cite title='Source Title'>{saying?.who_said}</cite></footer>
         </blockquote>
       </div>
     </div>
