@@ -1,6 +1,6 @@
-const JOKES_URL = 'http://localhost:5000/jokes';
-const QUOTES_URL = 'http://localhost:5000/quotes';
-const PROJECTS_URL = 'http://localhost:5000/projects';
+const JOKES_URL = 'https://evelyn-portfolio-backend.herokuapp.com/jokes';
+const QUOTES_URL = 'https://evelyn-portfolio-backend.herokuapp.com/quotes';
+const PROJECTS_URL = 'https://evelyn-portfolio-backend.herokuapp.com/projects';
 
 
 const headers = new Headers();
