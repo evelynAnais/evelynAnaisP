@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard';
 
 export default function ProjectList({ project }) {
-  const projectList = project.map((item, index) => (
+  const projectList = project.filter((item) => item.display).map((item, index) => (
     <ProjectCard key={index} item={item}/>
   ))
 

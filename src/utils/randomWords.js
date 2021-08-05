@@ -1,4 +1,4 @@
-export const synonyms = ['marvelous', 'delightful', 'dreamy', 'wicked', 'brilliant', 'smashing', 'fine', 'okay', 'galactic', 'grand']
+export const synonyms = ['marvelous', 'delightful', 'dreamy', 'wicked', 'brilliant', 'smashing', 'fine', 'galactic', 'grand']
 
 export function randomWord(list) {
   return list[Math.floor(Math.random() * list.length)]

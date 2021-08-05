@@ -14,14 +14,17 @@
   color: #dafeb7;
   text-decoration: none;
   transition-duration: 100ms;
-  
   text-shadow: 1px 1px 3px #000;
   z-index: 1
 }
 
 .synonym:hover {
   transition-duration: 100ms;
+  font-size:30px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
   color: #84dd63;
+  
 }
 
 @media all and (max-width: 768px) {
