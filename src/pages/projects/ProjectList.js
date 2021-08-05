@@ -5,7 +5,6 @@ export default function ProjectList({ project }) {
     <ProjectCard key={index} item={item}/>
   ))
 
-  
   return(
     
     <div className='container'>

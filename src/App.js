@@ -1,10 +1,10 @@
-import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
 import Projects from './pages/projects/Projects';
+import './App.css';
 
 export default function App() {
   return (

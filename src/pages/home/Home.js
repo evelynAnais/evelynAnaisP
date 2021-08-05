@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getJoke, getQuote } from '../../utils/api';
-import './Home.css';
 import NoteCard from './NoteCard';
+import './Home.css';
 
 export default function Home() {
   const [sayings, setSayings] = useState([]);
@@ -14,7 +14,7 @@ export default function Home() {
       }) 
   }
   useEffect(getSayings, []);
-console.log(sayings)
+
   return(
     <section>
       <div className='arrowSliding'>

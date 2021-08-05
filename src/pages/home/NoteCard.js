@@ -3,6 +3,7 @@ export default function NoteCard({ sayings }) {
   if (sayings.length) {
      saying = sayings[Math.floor(Math.random() * sayings.length)]
     }
+    
   return(
     <div className='card border-0 bg-transparent'>
       <div className='card-body'>

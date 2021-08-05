@@ -30,3 +30,4 @@ Evelyn Ploughman
 
 Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
+*  Dan Abramov for [useInterval custom-hook](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
