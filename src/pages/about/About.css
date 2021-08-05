@@ -10,6 +10,19 @@
   transform:translateX(200%);
 }
 
+.synonym {
+  color: #dafeb7;
+  text-decoration: none;
+  transition-duration: 100ms;
+  
+  text-shadow: 1px 1px 2px #000;
+  z-index: 1
+}
+
+.synonym:hover {
+  transition-duration: 100ms;
+  color: #6d7275;
+}
 
 @media all and (max-width: 768px) {
   .tri-three2 {
