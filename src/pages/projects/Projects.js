@@ -14,6 +14,8 @@ export default function Projects() {
   return(
     <section>
       <ProjectList project={project} />
+      {/* <div className='tri-three5'></div>
+      <div className='tri-three6'></div> */}
     </section>
     
   );

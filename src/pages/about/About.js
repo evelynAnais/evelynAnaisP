@@ -17,7 +17,7 @@ export default function About() {
   return(
     <section>
       <div className='tri-three2'></div>
-      <div className='container'>
+      <div className='container mt-5'>
         <div className='row'>
         <div className='col-sm'>
           <img src={learningJS} className='rounded img-thumbnail' alt='...'/>
@@ -32,7 +32,7 @@ export default function About() {
           <img src={withHat} className='rounded img-thumbnail' alt='...'/>
         </div>
         </div>
-        <div className='mt-4 mb-4'>
+        <div className='mt-5 mb-5'>
           <h2>Who Am I?</h2>
           <p>
             I believe that the only consistent thing in life is change and I love
