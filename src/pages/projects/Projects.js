@@ -11,7 +11,7 @@ export default function Projects() {
     getProject().then((res) => setProject(res.data));
   }
   useEffect(projects, []);
-console.log(project)
+  
   return(
     <section>
       <ProjectList project={project} />
