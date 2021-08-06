@@ -37,9 +37,9 @@ export default function About() {
           <p>
             I believe that the only consistent thing in life is change and I love
             that about the tech world. It is constantly changing! Learning is the
-            is the other thing that is consistent in life! In the tech world there
+            other thing that is consistent in life! In the tech world there
             is always something new to learn. Basically tech and I get along! Even 
-            if at times we have our differences with a margins on a "div" or an "s" 
+            if at times we have our differences with margins on a "div" or an "s" 
             missing somewhere and I get a 500 server error.
           </p>
           <p>
@@ -48,11 +48,11 @@ export default function About() {
             computers and phones that I owned. I liked messing with the settings 
             and I still do. I was the person who read the manuals and I am still the
             person who will read a gym contract. I suppose I like to be
-            well informed. Tell me what I can and cant do! 
+            well informed. Tell me what I can and can't do! 
           </p>
           <p>
             The best part about software is that "tell me what I can and can't do" goes
-            out the window. Yes, we all follow guidelines to help each other understand
+            out the window. Yes, we all follow guidelines to help each other understand,
             which is fantastic. But, what you can do with software is only limited to your 
             imagination! Well, imagination and how much you are willing to learn! 
           </p>
