@@ -7,7 +7,7 @@
   z-index: -1;
   position: absolute;
   transform: rotate(75deg);
-  top: 70%;
+  top: 80%;
   right: 50%;
 }
 
@@ -28,7 +28,7 @@
   
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 560px) {
   .tri-three2 {
     border-top: 500px solid transparent;
     border-bottom: 900px solid transparent;
@@ -37,5 +37,11 @@
     text-align: right;
     top: 250%;
     right: 0%;
+  }
+}
+
+@media all and (max-width: 1020px) {
+  .tri-three2 {
+    top: 90%;
   }
 }
