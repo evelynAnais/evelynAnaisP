@@ -2,7 +2,7 @@ import './ProjectCard.css'
 
 export default function ProjectCard({ item }) {
   return(
-    <div className='container'>
+    <div className='container mt-2'>
       <div className='row d-flex justify-content-around task'>
         <div className='card' >
           <img src={item?.color_img} className='card-img-top grayscale abstract' alt='...'/>
