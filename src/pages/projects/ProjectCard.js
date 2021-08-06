@@ -5,7 +5,9 @@ export default function ProjectCard({ item }) {
     <div className='container mt-2'>
       <div className='row d-flex justify-content-around task'>
         <div className='card' >
+          <a href={item?.live_url} target='_blank' rel='noreferrer'>
           <img src={item?.color_img} className='card-img-top grayscale abstract' alt='...'/>
+          </a>
           <div className='details'>
             <div className='details__inner'>
               <div className='card-body'>
