@@ -30,7 +30,7 @@ export default function Home() {
       <div className='absolute-intro'>
         <h1>Hello, I'm Evelyn!</h1>
         <h4>I'm a full stack Software Engineer</h4>
-        <hr/>
+        {/* <hr/> */}
         <NoteCard sayings={sayings} />
       </div>
     </section>
