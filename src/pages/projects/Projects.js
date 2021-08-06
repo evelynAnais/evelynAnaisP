@@ -13,9 +13,14 @@ export default function Projects() {
 
   return(
     <section>
+      <div className='container'>
+        <div className='row d-flex'>
+          <hr className='hr'/>
+          <hr className='hr-black'/>
+          <h2 className='mb-4'>Projects</h2>
+        </div>
+      </div>
       <ProjectList project={project} />
-      {/* <div className='tri-three5'></div>
-      <div className='tri-three6'></div> */}
     </section>
     
   );

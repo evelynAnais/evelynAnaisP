@@ -6,8 +6,9 @@
   border-left: 300px solid #DAFEB7;
   z-index: -1;
   position: absolute;
-  transform: rotate(45deg);
-  transform:translateX(200%);
+  transform: rotate(75deg);
+  top: 70%;
+  right: 50%;
 }
 
 .synonym {
@@ -21,20 +22,20 @@
 .synonym:hover {
   transition-duration: 100ms;
   font-size:30px;
-    transition: all 500ms;
-    font-size-adjust: 20px;
+  transition: all 500ms;
+  font-size-adjust: 20px;
   color: #84dd63;
   
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .tri-three2 {
     border-top: 500px solid transparent;
-    border-bottom: 1000px solid transparent;
+    border-bottom: 900px solid transparent;
     border-left: 500px solid #DAFEB7;
     transform: rotate(180deg);
     text-align: right;
-    top: 110%;
+    top: 250%;
     right: 0%;
   }
 }

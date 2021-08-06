@@ -5,7 +5,6 @@ export default function Header() {
     <header>
       <hr className='hr'/>
       <hr className='hr-black'/>
-
     </header>
   );
 } 

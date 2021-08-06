@@ -18,6 +18,8 @@ export default function Contact() {
       <a className='a-contact' href='mailto:evelyn.a.n.d.30@gmail.com' target='_blank' rel='noreferrer'>
         <i className='fas fa-envelope fa-2x'></i>
       </a>
+      <hr className='hr'/>
+      <hr className='hr-black'/>
     </section>
   );
 }

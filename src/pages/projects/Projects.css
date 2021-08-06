@@ -1,47 +1,13 @@
-.tri-three5 {
-  width: 0; 
-  height: 0; 
-  border-top: 750px solid transparent;
-  border-bottom: 300px solid transparent;
-  border-left: 250px solid #DAFEB7;
-  z-index: -1;
-  position: absolute;
-  transform: rotate(-35deg);
-  top: 110%;
-  left: 25%;
+.hr {
+  background-color: #dafeb7;
+  height: 4px;
+  border: 4px solid #dafeb7;
+  opacity: 1;
 }
 
-.tri-three6 {
-  width: 0; 
-  height: 0; 
-  border-top: 235px solid transparent;
-  border-bottom: 200px solid transparent;
-  border-left: 255px solid #DAFEB7;
-  z-index: -1;
-  position: absolute;
-  transform: rotate(-90deg);
-  top: 200%;
-  left: 2%;
-}
-
-@media all and (max-width: 768px) {
-  .tri-three5 {
-    border-top: 220px solid transparent;
-    border-bottom: 300px solid transparent;
-    border-left: 200px solid #DAFEB7;
-    z-index: -1;
-    position: absolute;
-    transform: rotate(-25deg);
-    top: 355%;
-  }
-
-  /* .tri-three6 {
-    border-top: 220px solid transparent;
-    border-bottom: 300px solid transparent;
-    border-left: 200px solid #DAFEB7;
-    z-index: -1;
-    position: absolute;
-    transform: rotate(-25deg);
-    top: 355%;
-  } */
+.hr-black {
+  color: #000103;
+  height: 2px;
+  border: 2px solid #000103;
+  opacity: 1;
 }
