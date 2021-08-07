@@ -1,3 +1,5 @@
+import "./NoteCard.css";
+
 export default function NoteCard({ sayings }) {
   let saying;
   if (sayings.length) {
@@ -5,7 +7,7 @@ export default function NoteCard({ sayings }) {
     }
     
   return(
-    <div className='card border-0 bg-transparent'>
+    <div className='card border-0 bg-transparent note'>
       <div className='card-body px-0 py-0'>
         <hr/>
         <blockquote className='blockquote'>

@@ -1,0 +1,12 @@
+.note {
+  width: 28rem;
+  /* margin: 0px, 0px, 0px, 0px; */
+}
+
+@media all and (max-width: 768px) {
+  .note {
+    width: 18rem;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}

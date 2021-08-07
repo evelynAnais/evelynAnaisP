@@ -38,8 +38,9 @@
 .absolute-intro {
   position: absolute;
   text-align: right;
+  
   top: 15%;
-  right: 15%;
+  right: 3%;
 }
 .arrowSliding {
   position: absolute;
