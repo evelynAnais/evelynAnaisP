@@ -1,3 +1,4 @@
+import { shuffle } from '../../utils/randomWords';
 import ProjectCard from './ProjectCard';
 
 export default function ProjectList({ project }) {
@@ -6,11 +7,9 @@ export default function ProjectList({ project }) {
   //    projects = project[Math.floor(Math.random() * project.length)]
   //   }
 
-  const projectList = project.filter((item) => item.display).map((item, index) => (
-
-    
+  const projectList = shuffle(project.filter((item) => item.display).map((item, index) => (
     <ProjectCard key={index} item={item}/>
-  ));
+  )));
 
   return(
     <div className='container'>
