@@ -22,7 +22,8 @@ export default function ProjectCard({ item }) {
               <div className='card-body'>
                 <a href={item?.live_url} className='card-link links' target='_blank' rel='noreferrer'>Live</a>
                 <span> || </span>
-                <a href={item?.code_url} className='card-link links' target='_blank' rel='noreferrer'>Code</a>
+                {item.code_url && <a href={item?.code_url} className='card-link links' target='_blank' rel='noreferrer'>Frontend Code</a>}              
+                {item.api_code_url && <a href={item?.api_code_url} className='card-link links' target='_blank' rel='noreferrer'>Backend Code</a>}
               </div>
             </div>
           </div>
