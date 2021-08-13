@@ -4,7 +4,7 @@ export default function ProjectCard({ item }) {
   return(
     <div className='container mt-2'>
       <div className='row d-flex justify-content-around task'>
-        <div className='card' >
+        <div className='card border-1 borderColor'>
           <a href={item?.live_url} target='_blank' rel='noreferrer'>
           <img src={item?.color_img} className='card-img-top grayscale abstract' alt='...'/>
           </a>

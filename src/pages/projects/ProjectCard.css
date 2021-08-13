@@ -55,3 +55,17 @@
   visibility: visible;
   transform: rotateX(0deg);
 }
+
+.borderColor {
+  /* background-color: #D0CFCF; */
+  /* border-shadow: 1px 1px 3px #000; */
+  border: 1px solid #D0CFCF;;
+  opacity: 1;
+}
+
+.borderColor:hover {
+  background-color: #dafeb763;
+  /* border-shadow: 1px 1px 3px #000; */
+  border: 1px solid #D0CFCF;
+  opacity: 1
+}
