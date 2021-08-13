@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(getSayings, []);
 
   return(
-    <section>
+    <section className='view'>
       <div className='arrowSliding'>
         <div className='tri-one'></div>
       </div>
