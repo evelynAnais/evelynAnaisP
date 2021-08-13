@@ -9,6 +9,7 @@ export default function Projects() {
   const [loading, setLoading] = useState(false);
 
   function projects() {
+    setLoading(true);
     getProject().then((res) => {
       setProject(res.data)
       setLoading(false);
